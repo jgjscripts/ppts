@@ -17,52 +17,52 @@ Sub CreatePresentation()
     ' Slide 2: Neural Networks Overview
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(2, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Neural Networks Overview"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Provide a brief overview of neural networks, their basic structure, and how they process information."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Provide a brief overview of neural networks, their basic structure, and how they process information."
 
     ' Slide 3: Need for Sequential Processing
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(3, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Need for Sequential Processing"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Explain the limitations of feedforward neural networks in handling sequential data."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Explain the limitations of feedforward neural networks in handling sequential data."
 
     ' Slide 4: Recurrent Neural Networks (RNNs)
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(4, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Recurrent Neural Networks (RNNs)"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Define RNNs as a class of neural networks designed to handle sequential data."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Define RNNs as a class of neural networks designed to handle sequential data."
 
     ' Slide 5: Vanishing/Exploding Gradient Problem
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(5, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Vanishing/Exploding Gradient Problem"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Describe the vanishing and exploding gradient problems that arise during backpropagation in RNNs."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Describe the vanishing and exploding gradient problems that arise during backpropagation in RNNs."
 
     ' Slide 6: Long Short-Term Memory (LSTM)
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(6, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Long Short-Term Memory (LSTM)"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Introduce LSTM as a specialized RNN architecture designed to mitigate the vanishing gradient problem."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Introduce LSTM as a specialized RNN architecture designed to mitigate the vanishing gradient problem."
 
     ' Slide 7: Attention Mechanism
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(7, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Attention Mechanism"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Introduce the concept of attention mechanism in neural networks."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Introduce the concept of attention mechanism in neural networks."
 
     ' Slide 8: Attention Networks Transformation
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(8, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Attention Networks Transformation"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Describe how attention mechanisms can be incorporated into different neural network architectures."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Describe how attention mechanisms can be incorporated into different neural network architectures."
 
     ' Slide 9: Applications of RNNs, LSTM, and Attention Networks
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(9, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Applications of RNNs, LSTM, and Attention Networks"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Provide examples of real-world applications where RNNs, LSTM, and attention networks have shown remarkable performance."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Provide examples of real-world applications where RNNs, LSTM, and attention networks have shown remarkable performance."
 
     ' Slide 10: Conclusion
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(10, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "Conclusion"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Summarize the key points discussed in the presentation."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Summarize the key points discussed in the presentation."
 
     ' Slide 11: References
     Set PowerPointSlide = PowerPointPresentation.Slides.Add(11, 11)
     PowerPointSlide.Shapes.Title.TextFrame.TextRange.Text = "References"
-    PowerPointSlide.Shapes(2).TextFrame.TextRange.Text = "Include a slide with the references used in your presentation."
+    PowerPointSlide.Shapes.AddTextbox(1, 100, 100, 500, 300).TextFrame.TextRange.Text = "Include a slide with the references used in your presentation."
 
     ' Clean up objects
     Set PowerPointSlide = Nothing
